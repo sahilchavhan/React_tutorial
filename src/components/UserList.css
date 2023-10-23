@@ -1,0 +1,72 @@
+/* UserList.css */
+
+.user-list {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width:80%;
+    list-style: none;
+    padding: 0;
+    border-radius: 20px;
+  }
+  
+  .user-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  align-items: center;
+  margin-left: 25%;
+  }
+  
+  .user-item button {
+    margin-right: 10px;
+  }
+  
+  .user-edit input,
+  .user-edit select,
+  .user-edit textarea {
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  .user-edit button {
+    margin-top: 10px;
+  }
+  
+  .user-details {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .user-details button {
+    margin: 5px;
+  }
+  
+  .zero{
+    font-size: larger;
+    position: relative;
+    top: -20px;
+    right: -50px;
+  }
+  .one{
+    width:400px;
+    height: 30px;
+    border-radius: 7px;
+  }
+  .three{
+    font-size: larger;
+    position: relative;
+    top: -20px;
+    right: -130px;
+  }
+  .two{
+    position: relative;
+   
+    left: -40px;
+  }
